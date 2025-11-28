@@ -4,14 +4,12 @@ const imagenes = [
     "3.jpg",
 ];
 
-funcion renderizar() { 
+function renderizar() { 
     const contenedor = document.getElementById("galeria")
 
-    imagenes.forEach(img => {
-        contenedor.innerHTML = contenedor.innerHTML + `
-            <img src="imagnes/${img}"> 
-        `
-    })
+    imagenes.forEach((img) => {
+        contenedor.innerHTML = `<img src="imagnes/${img}">`
+    });
 }
 
 render() 
