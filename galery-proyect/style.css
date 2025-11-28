@@ -1,5 +1,5 @@
 #galeria {
     display: gird; 
-    grid-templte-columns: repeat(3 1fr); 
-    gqp: 20px; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
 }
