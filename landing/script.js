@@ -1,7 +1,7 @@
 function saludar() {
-    let nombre = promt("Cómo te llamas?"); 
+    let nombre = prompt("Cómo te llamas?"); 
 
-    alert("Hola " + nombre.toUppercase());
+    alert("Hola " + nombre.toUpperCase());
 
-    console.lg("Saludo enviado");
+    console.log("Saludo enviado");
 }
