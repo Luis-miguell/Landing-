@@ -1,9 +1,9 @@
 .conteiner {
-    with: 500px; 
-    padding 20px; 
-    background: rgb(240,240240); 
+    width: 500px; 
+    padding: 20px; 
+    background: rgb(240,240,240); 
 }
 
 ul li {
-    list-style: non; 
+    list-style: nono; 
 }
